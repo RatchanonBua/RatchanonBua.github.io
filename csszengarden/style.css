@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+@font-face {
+	font-family: 'Roboto Slab', serif;
+}
+
+@keyframes bg-rainbow {
+	0% {background-position: 0% 82%}
+    50% {background-position: 100% 19%}
+    100% {background-position: 0% 82%}
+}
+
+@keyframes slidetop {
+	0% { transform: translateY(500px) }
+	100% { transform: translateY(0) }
+}
+
+@keyframes shadow-pop-tr {
+	0% { box-shadow:0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e;
+		transform:translateX(0) translateY(0)
+	}
+	100% { box-shadow:1px -1px #3e3e3e,2px -2px #3e3e3e,3px -3px #3e3e3e,4px -4px #3e3e3e,5px -5px #3e3e3e,6px -6px #3e3e3e,7px -7px #3e3e3e,8px -8px #3e3e3e;
+		transform:translateX(-8px) translateY(8px)
+		}
+}
+
+#zen-intro {
+	min-width: 1024px;
+
+	border-style: solid;
+	border-color: lightgray;
+	margin: 0px 0px 5px 0px;
+
+	background-image: url('https://cdn.pixabay.com/photo/2014/03/23/09/38/swan-293157_960_720.jpg');
+	background-size: cover;
+
+	background-color: lightblue;
+}
+
+#zen-supporting, .sidebar {
+	display: table-cell;
+	animation: slidetop 2s cubic-bezier(.25,.46,.45,.94) both;
+}
+
+#zen-supporting {
+	min-width: 640px;
+}
+
+.sidebar {
+	min-width: 384px;
+
+	background-color: #03A9F5;
+
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 25px;
+}
+
+#zen-explanation {
+	border-style: solid;
+	border-color: lightgray;
+
+	background-image: url('https://cdn.pixabay.com/photo/2010/12/13/10/09/abstract-2384_960_720.jpg');
+	background-size: cover;
+
+	background-color: white;
+
+	margin: 0px 0px 5px 0px;
+}
+
+#zen-participation, #zen-benefits {
+	display: table-cell;
+	border-style: solid;
+	border-color: lightgray;
+	background-color: white;
+	margin: 5px 5px 5px 5px;
+}
+
+#zen-participation {
+	background-image: url('https://cdn.pixabay.com/photo/2010/12/13/10/21/air-2716_960_720.jpg');
+	background-size: cover;
+	background-color: pink;
+}
+
+#zen-benefits {
+	min-width: 320px;
+	background-image: url('https://cdn.pixabay.com/photo/2013/04/04/12/34/sunset-100367_960_720.jpg');
+	background-size: cover;
+	background-color: #f2f2f2;
+}
+
+#zen-requirements {
+	border-style: solid;
+	border-color: lightgray;
+
+	background-image: url('https://cdn.pixabay.com/photo/2017/03/25/17/55/color-2174045_960_720.png');
+	background-size: cover;
+	background-color: white;
+
+	margin: 0px 0px 5px 0px;
+}
+
+#zen-summary p {
+	text-align: center;
+}
+
+#zen-explanation p, #zen-explanation h3, #zen-participation p, #zen-participation h3, #zen-benefits p, #zen-benefits h3 {
+	color: white;
+}
+
+p {
+	text-align: justify;
+	margin: 15px 20px 15px 20px;
+}
+
+body {
+	font-family: 'Roboto Slab', serif;
+	background-color: lightgray;
+}
+
+h1 {
+	color: #0000ff;
+	font-size: 3em;
+	text-align: center;
+	text-shadow: 2px 2px #ffffaa;
+	margin: 10px 10px 10px 10px;
+	border-style: solid;
+	border-color: #3e3e3e;
+
+
+	animation:shadow-pop-tr .3s cubic-bezier(.47,0.000,.745,.715) both
+}
+
+h2 {
+	color: black;
+	font-size: 1.75em;
+	text-align: center;
+	text-shadow: 2px 2px #bfbfbf;
+	margin: 20px 20px 20px 20px;
+	border-style: solid;
+	border-color: #3e3e3e;
+
+	animation:shadow-pop-tr .3s cubic-bezier(.47,0.000,.745,.715) both
+}
+
+h3 {
+	color: black;
+	text-align: center;
+	margin: 15px 0px 15px 0px;
+}
+
+footer {
+	display: none;
+}
+
+a {
+	text-indent: 30%;
+	text-align: center;
+	cursor: pointer;
+	color: black;
+	border-radius: 15px;
+	background-color: #03A9F5;
+}
+
+a:hover {
+	background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+	background-size: 1800% 1800%;
+ 	animation: bg-rainbow 15s linear infinite;
+}
