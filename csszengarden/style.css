@@ -11,7 +11,7 @@
 }
 
 @keyframes slidetop {
-	0% { transform: translateY(500px) }
+	0% { transform: translateY(250px) }
 	100% { transform: translateY(0) }
 }
 
@@ -31,7 +31,7 @@
 	border-color: lightgray;
 	margin: 0px 0px 5px 0px;
 
-	background-image: url('https://cdn.pixabay.com/photo/2014/03/23/09/38/swan-293157_960_720.jpg');
+	background-image: url('images/swan-293157_1280.jpg');
 	background-size: cover;
 
 	background-color: lightblue;
@@ -60,10 +60,10 @@
 	border-style: solid;
 	border-color: lightgray;
 
-	background-image: url('https://cdn.pixabay.com/photo/2010/12/13/10/09/abstract-2384_960_720.jpg');
+	background-image: url('images/abstract-2384_1280.jpg');
 	background-size: cover;
 
-	background-color: white;
+	background-color: lightgreen;
 
 	margin: 0px 0px 5px 0px;
 }
@@ -72,28 +72,27 @@
 	display: table-cell;
 	border-style: solid;
 	border-color: lightgray;
-	background-color: white;
 	margin: 5px 5px 5px 5px;
 }
 
 #zen-participation {
-	background-image: url('https://cdn.pixabay.com/photo/2010/12/13/10/21/air-2716_960_720.jpg');
+	background-image: url('images/air-2716_1280.jpg');
 	background-size: cover;
 	background-color: pink;
 }
 
 #zen-benefits {
 	min-width: 320px;
-	background-image: url('https://cdn.pixabay.com/photo/2013/04/04/12/34/sunset-100367_960_720.jpg');
+	background-image: url('images/sunset-100367_1280.jpg');
 	background-size: cover;
-	background-color: #f2f2f2;
+	background-color: gray;
 }
 
 #zen-requirements {
 	border-style: solid;
 	border-color: lightgray;
 
-	background-image: url('https://cdn.pixabay.com/photo/2017/03/25/17/55/color-2174045_960_720.png');
+	background-image: url('images/color-2174045_1280.png');
 	background-size: cover;
 	background-color: white;
 
@@ -128,7 +127,7 @@ h1 {
 	border-color: #3e3e3e;
 
 
-	animation:shadow-pop-tr .3s cubic-bezier(.47,0.000,.745,.715) both
+	animation:shadow-pop-tr 2s cubic-bezier(.47,0.000,.745,.715) both
 }
 
 h2 {
@@ -140,7 +139,7 @@ h2 {
 	border-style: solid;
 	border-color: #3e3e3e;
 
-	animation:shadow-pop-tr .3s cubic-bezier(.47,0.000,.745,.715) both
+	animation:shadow-pop-tr 2s cubic-bezier(.47,0.000,.745,.715) both
 }
 
 h3 {
