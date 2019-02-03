@@ -77,13 +77,13 @@
 		<h2>CSS Specificity: Rules</h2>
 
 		<h3 style="text-indent: 1em;"><i class="far fa-clock"></i>Specificity เท่ากัน (ลำดับชั้นของ Selector เท่ากัน): ถือเอา Style ล่าสุด</h3>
-		<p style="text-indent: 4em;">ถ้าหากมีค่า Specificity เท่ากัน Browser จะนับเอา Style ล่าสุดมา Apply ลงใน HTML</p>
+		<p style="text-indent: 4em;">ถ้าหากมี Specific เท่ากัน Browser จะนับเอา Style ล่าสุดมา Apply ลงใน HTML</p>
 		<p style="text-indent: 4em;"><b>ตัวอย่าง</b>"ul li.active" ในไฟล์ "style-1.css" และ "ul li.active" ในไฟล์ "style-2.css" ถูกไฟล์ "home.html" เรียกขึ้นมา</p>
 		<p style="text-indent: 8em;">แต่ว่าไฟล์ "style-1.css" ถูกลำดับการเรียกหลังจากเรียกไฟล์ "style-2.css"</p>
-		<p style="text-indent: 4em;"><b>ดังนั้น</b>ไฟล์ "home.html" จะใช้ Style ของไฟล์ "style-1.css" เพราะ กฎการใช้ Style ล่าสุดเมื่อมีค่า Specificity เท่ากัน</p>
+		<p style="text-indent: 4em;"><b>ดังนั้น</b>ไฟล์ "home.html" จะใช้ Style ของไฟล์ "style-1.css" เพราะ กฎการใช้ Style ล่าสุดเมื่อมี Specific เท่ากัน</p>
 
-		<h3 style="text-indent: 1em;"><i class="far fa-clock"></i>ID Selector จะมีค่า Specificity สูงกว่า Attribute Selector</h3>
-		<p style="text-indent: 4em;">ID Selector จะถูกเรียกก่อน Selector ตัวอื่นๆ เพราะ มีค่า Specificity ที่สูงกว่า ยกเว้น !important และ Inner Style</p>
+		<h3 style="text-indent: 1em;"><i class="far fa-clock"></i>ID Selector จะมี Specific สูงกว่า Attribute Selector</h3>
+		<p style="text-indent: 4em;">ID Selector จะถูกเรียกก่อน Selector ตัวอื่นๆ เพราะ มี Specific ที่สูงกว่า ยกเว้น !important และ Inner Style</p>
 		<p style="text-indent: 4em;"><b>ตัวอย่าง</b></p>
 		<p style="text-indent: 6em;">#rules {background-color: lightgreen;}</p>
 		<p style="text-indent: 6em;">.rules {background-color: yellow;}</p>
@@ -96,7 +96,7 @@
 		<p style="text-indent: 6em;">h2 { color: blue; }</p>
 		<p style="text-indent: 4em;"><b>ดังนั้น</b>คลาส "intro" Header ระดับ 2 จะมีสีขาว ส่วน Header ระดับ 2 ที่ไม่ได้อยู่ในคลาส "intro" จะมีสีน้ำเงิน </p>
 
-		<h3 style="text-indent: 1em;"><i class="far fa-clock"></i>Class Selector จะมีค่า Specificity สูงกว่า Element Selector</h3>
+		<h3 style="text-indent: 1em;"><i class="far fa-clock"></i>Class Selector จะมี Specific สูงกว่า Element Selector</h3>
 		<p style="text-indent: 4em;">Class Selector จะถูกเรียกก่อน Element Selector</p>
 		<p style="text-indent: 4em;"><b>ตัวอย่าง</b></p>
 		<p style="text-indent: 6em;">.intro { background-color: yellow; }</p>
@@ -118,11 +118,11 @@
 
 			<h3 style="text-indent: 1em;">จะคำนวณ Specificity ได้อย่างไร?</h3>
 
-			<p style="text-indent: 2em;">Selector แต่ละตัวจะมีค่า Specific อยู่ค่าหนึ่ง Selector ที่อยู่ลำดับชั้นเดียวกันจะมีค่า Specific เท่ากัน โดยวิธีการคำนวณจะใช้กฎ ดังนี้</p>
-			<p style="text-indent: 2em;"><i class="far fa-clock"></i>Inline Style จะมีค่า Specific อยู่ที่<b>1-0-0-0</b>หรือจะใช้จำนวน<b>1000</b>เพื่อให้ง่ายต่อการคำนวณ</p>
-			<p style="text-indent: 2em;"><i class="far fa-clock"></i>ID Selector จะมีค่า Specific อยู่ที่<b>0-1-0-0</b>หรือจะใช้จำนวน<b>100</b>เพื่อให้ง่ายต่อการคำนวณ</p>
-			<p style="text-indent: 2em;"><i class="far fa-clock"></i>Class Selector จะมีค่า Specific อยู่ที่<b>0-0-1-0</b>หรือจะใช้จำนวน<b>10</b>เพื่อให้ง่ายต่อการคำนวณ</p>
-			<p style="text-indent: 2em;"><i class="far fa-clock"></i>Element Selector จะมีค่า Specific อยู่ที่<b>0-0-0-1</b>หรือจะใช้จำนวน<b>1</b>เพื่อให้ง่ายต่อการคำนวณ</p>
+			<p style="text-indent: 2em;">Selector แต่ละตัวจะมี Specific อยู่ค่าหนึ่ง Selector ที่อยู่ลำดับชั้นเดียวกันจะมี Specific เท่ากัน โดยวิธีการคำนวณจะใช้กฎ ดังนี้</p>
+			<p style="text-indent: 2em;"><i class="far fa-clock"></i>Inline Style จะมี Specific อยู่ที่<b>1-0-0-0</b>หรือจะใช้จำนวน<b>1000</b>เพื่อให้ง่ายต่อการคำนวณ</p>
+			<p style="text-indent: 2em;"><i class="far fa-clock"></i>ID Selector จะมี Specific อยู่ที่<b>0-1-0-0</b>หรือจะใช้จำนวน<b>100</b>เพื่อให้ง่ายต่อการคำนวณ</p>
+			<p style="text-indent: 2em;"><i class="far fa-clock"></i>Class Selector จะมี Specific อยู่ที่<b>0-0-1-0</b>หรือจะใช้จำนวน<b>10</b>เพื่อให้ง่ายต่อการคำนวณ</p>
+			<p style="text-indent: 2em;"><i class="far fa-clock"></i>Element Selector จะมี Specific อยู่ที่<b>0-0-0-1</b>หรือจะใช้จำนวน<b>1</b>เพื่อให้ง่ายต่อการคำนวณ</p>
 		</div>
 
 		<div class="cal-example">
@@ -130,7 +130,7 @@
 
 			<p style="text-indent: 2em;"><i class="far fa-clock"></i>"ul li.active a" -> มีค่า Specific อยู่ที่ 13 (ul = 1, li = 1, .active = 10 และ a = 1)</p>
 			<p style="text-indent: 2em;"><i class="far fa-clock"></i>"ul li a" ---------> มีค่า Specific อยู่ที่ 3 (ul = 1, li = 1 และ a = 1)</p>
-			<p style="text-indent: 2em;"><b>ดังนั้น</b> Browser จะเลือก "ul li.active a" มา Apply เพราะ มีค่า Specific มากกว่า "ul li a"</p>
+			<p style="text-indent: 2em;"><b>ดังนั้น</b> Browser จะเลือก "ul li.active a" มา Apply เพราะ มี Specific มากกว่า "ul li a"</p>
 
 			<p style="text-align: center;">----</p>
 		</div>
