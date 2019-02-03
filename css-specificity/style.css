@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Sarabun');
+
+@font-face {
+	font-family: 'Sarabun', serif;
+}
+
+@keyframes bg-rainbow {
+	0% {background-position: 0% 82%}
+	50% {background-position: 100% 19%}
+	100% {background-position: 0% 82%}
+}
+
+* {
+	border-radius: 15px;
+	margin: 5px 5px 5px 5px;
+}
+
+.topic {
+	min-width: 1024px;
+
+	text-align: center;
+
+	background-image: url('images/color-2174045_1280.png');
+	/* Image Credit to https://pixabay.com/en/color-triangle-geometric-textured-2174045/ */
+	background-size: cover;
+
+	border-style: solid;
+    border-color: lightgray;
+}
+
+body {
+	font-family: 'Sarabun', serif;
+	text-align: justify;
+
+	background-size: cover;
+	background-color: lightgray;
+}
+
+.intro h2, .type h2, .intro h3, .type h3, h4 {
+	color: white;
+	background-color: transparent;
+}
+
+h2 {
+	color: blue;
+	background-color: pink;
+}
+
+.intro {
+	background-color: lightblue;
+
+    background-image: url('images/air-2716_1280.jpg');
+	/* Image Credit to https://pixabay.com/en/air-atmosphere-blue-clear-climate-2716/ */
+	background-size: cover;
+}
+
+.intro p, .type p {
+	color: white;
+}
+
+.type {
+	background-color: lightblue;
+
+    background-image: url('images/sunset-100367_1280.jpg');
+	/* Image Credit to https://pixabay.com/en/sunset-birds-flying-sky-colorful-100367/ */
+	background-size: cover;
+}
+
+.intro, .type {
+	display: table-cell;
+
+	border-style: solid;
+    border-color: lightgray;
+
+    min-width: 512px;
+}
+
+.calculate, .rules, .credit {
+	border-style: solid;
+    border-color: lightgray;
+
+    min-width: 1024px;
+}
+
+.calculate {
+	background-image: url('images/swan-293157_1280.jpg');
+	/* Image Credit to https://pixabay.com/en/swan-bird-nature-water-bird-293157/ */
+	background-size: cover;
+}
+
+#rules {
+	background-color: lightgreen;
+}
+
+.rules {
+	background-color: yellow;
+}
+
+.credit {
+	background-image: url('images/abstract-2384_1280.jpg');
+	/* Image Credit to https://pixabay.com/en/abstract-aqua-background-blue-2384/ */
+	background-size: cover;
+}
+
+.credit h3, .credit p {
+	color: white;
+}
+
+a {
+	text-indent: 30%;
+	text-align: center;
+	cursor: pointer;
+	color: black;
+	border-radius: 15px;
+	background-color: #03A9F5;
+}
+
+a:hover {
+	background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+	background-size: 1800% 1800%;
+ 	animation: bg-rainbow 15s linear infinite;
+}

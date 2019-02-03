@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>CSS Specificity</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css?">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+
+<body>
+	<header class="topic">
+		<h1>CSS Specificity</h1>
+	</header>
+
+	<section class="intro">
+		<h2>&nbsp;&nbsp;&nbsp;&nbsp;CSS Specificity คืออะไร?</h2>
+
+		<div class="meaning">
+			<p>&nbsp;<i class="far fa-clock"></i> กฎในการเลือก Selector ที่ซึ่งจัดลำดับความสำคัญของ Selector&nbsp;&nbsp;</p>
+			<p>&nbsp;<i class="far fa-clock"></i> การกำหนด Selector แต่ละประเภท ให้มี Priority ที่แตกต่างกันออกไป&nbsp;&nbsp;</p>
+			<p>&nbsp;<i class="far fa-clock"></i> Selector ที่มีความสำคัญมาก จะถูกเลือกมา Apply กับ Element ก่อน&nbsp;&nbsp;</p>
+		</div>
+
+		<div class="extension">
+			<p>&nbsp;<i class="far fa-clock"></i> CSS Specificity จะจัด Priority ของ CSS Selector เพื่อการเรียกใช้งาน&nbsp;&nbsp;</p>
+			<p>&nbsp;<i class="far fa-clock"></i> CSS Specificity ยังรวมการจัด Priority ของวิธีการ Insert <abbr title="Cascading Style Sheets">CSS</abbr> อีกด้วย&nbsp;&nbsp;</p>
+		</div>
+
+		<p style="text-align: center;">----</p>
+
+		<div class="priority">
+			<h3>&nbsp;ลำดับความสำคัญของ Selector</h3>
+			<h4 style="text-indent: 1em;">เรียงจากมากที่สุดไปยังน้อยที่สุด ตามลำดับ</h4>
+
+			<p style="text-indent: 1.5em;">+ Inline Style</p>
+			<p style="text-indent: 1.5em;">+ Internal Style Sheet</p>
+			<p style="text-indent: 2em;">- ID Selector</p>
+			<p style="text-indent: 2em;">- Class Selector</p>
+			<p style="text-indent: 2em;">- Element Selector</p>
+			<p style="text-indent: 1.5em;">+ External Style Sheet</p>
+			<p style="text-indent: 2em;">- ID Selector</p>
+			<p style="text-indent: 2em;">- Class Selector</p>
+			<p style="text-indent: 2em;">- Element Selector</p>
+		</div>
+
+		<p style="text-align: center;">----</p>
+	</section>
+
+	<section class="type">
+		<div class="css-selectors-type">
+			<h3>&nbsp;&nbsp;ประเภทของ CSS Selector</h3>
+
+			<p>&nbsp;1. Element Selector (<b>element-name</b>)</p>
+			<p style="text-indent: 2em;">การเลือก Apply CSS เข้าไปที่ Element โดยตรง</p>
+			<p>&nbsp;2. Class Selector (<b>.class-name</b>)</p>
+			<p style="text-indent: 2em;">การเลือก Apply CSS เข้าไปที่ Element โดยการเลือก Class ของ Element และทำการ Apply Element ทั้งหมดใน Class</p>
+			<p>&nbsp;3. ID Selector (<b>#id-name</b>)</p>
+			<p style="text-indent: 2em;">การเลือก Apply CSS เข้าไปที่ Element โดยการเลือก ID ของ Element และทำการ Apply Element ทั้งหมดที่อยู่ใน ID</p>
+			<p style="text-align: center;">----</p>
+		</div>
+
+		<div class="insert-type">
+			<h3>&nbsp;&nbsp;วิธีการ Insert CSS ลงใน Element</h3>
+
+			<p>&nbsp;1. External Style Sheet</p>
+			<p style="text-indent: 2em;">การ Import ไฟล์ Stylesheet นำมาใช้ Apply Element ของ HTML</p>
+			<p>&nbsp;2. Internal Style Sheet</p>
+			<p style="text-indent: 2em;">การเขียน Stylesheet ที่ไว้ใช้ Apply Element ใน Tag Head ของ HTML</abbr></p>
+			<p>&nbsp;3. Inline Styles</p>
+			<p style="text-indent: 2em;">การเขียน Style กำหนดรูปแบบใน Tag ของ HTML เลย</p>
+			<p style="text-align: center;">----</p>
+		</div>
+	</section>
+
+	<div class="rules" id="rules">
+		<h2>CSS Specificity: Rules</h2>
+
+		<h3 style="text-indent: 1em;"><i class="far fa-clock"></i>Specificity เท่ากัน (ลำดับชั้นของ Selector เท่ากัน): ถือเอา Style ล่าสุด</h3>
+		<p style="text-indent: 4em;">ถ้าหากมีค่า Specificity เท่ากัน Browser จะนับเอา Style ล่าสุดมา Apply ลงใน HTML</p>
+		<p style="text-indent: 4em;"><b>ตัวอย่าง</b>"ul li.active" ในไฟล์ "style-1.css" และ "ul li.active" ในไฟล์ "style-2.css" ถูกไฟล์ "home.html" เรียกขึ้นมา</p>
+		<p style="text-indent: 8em;">แต่ว่าไฟล์ "style-1.css" ถูกลำดับการเรียกหลังจากเรียกไฟล์ "style-2.css"</p>
+		<p style="text-indent: 4em;"><b>ดังนั้น</b>ไฟล์ "home.html" จะใช้ Style ของไฟล์ "style-1.css" เพราะ กฎการใช้ Style ล่าสุดเมื่อมีค่า Specificity เท่ากัน</p>
+
+		<h3 style="text-indent: 1em;"><i class="far fa-clock"></i>ID Selector จะมีค่า Specificity สูงกว่า Attribute Selector</h3>
+		<p style="text-indent: 4em;">ID Selector จะถูกเรียกก่อน Selector ตัวอื่นๆ เพราะ มีค่า Specificity ที่สูงกว่า ยกเว้น !important และ Inner Style</p>
+		<p style="text-indent: 4em;"><b>ตัวอย่าง</b></p>
+		<p style="text-indent: 6em;">#rules {background-color: lightgreen;}</p>
+		<p style="text-indent: 6em;">.rules {background-color: yellow;}</p>
+		<p style="text-indent: 4em;"><b>ดังนั้น</b>Background จะเป็นสีเขียวอ่อน</p>
+
+		<h3 style="text-indent: 1em;"><i class="far fa-clock"></i>Contextual Selector หรือ Selector ที่เจาะจงกว่า จะมี Specific มากกว่า Element Selector ตัวเดียว</h3>
+		<p style="text-indent: 4em;">Selector ที่มีรายละเอียดมากกว่า หรือ เจาะจงกว่า Selector ตัวอื่นๆ จะถูกเรียกใช้ก่อน</p>
+		<p style="text-indent: 4em;"><b>ตัวอย่าง</b></p>
+		<p style="text-indent: 6em;">.intro h2 { color: white; }</p>
+		<p style="text-indent: 6em;">h2 { color: blue; }</p>
+		<p style="text-indent: 4em;"><b>ดังนั้น</b>คลาส "intro" Header ระดับ 2 จะมีสีขาว ส่วน Header ระดับ 2 ที่ไม่ได้อยู่ในคลาส "intro" จะมีสีน้ำเงิน </p>
+
+		<h3 style="text-indent: 1em;"><i class="far fa-clock"></i>Class Selector จะมีค่า Specificity สูงกว่า Element Selector</h3>
+		<p style="text-indent: 4em;">Class Selector จะถูกเรียกก่อน Element Selector</p>
+		<p style="text-indent: 4em;"><b>ตัวอย่าง</b></p>
+		<p style="text-indent: 6em;">.intro { background-color: yellow; }</p>
+		<p style="text-indent: 6em;">h1 {background-color: red;}</p>
+		<p style="text-indent: 10em;">.</p>
+		<p style="text-indent: 10em;">.</p>
+		<p style="text-indent: 10em;">.</p>
+		<p style="text-indent: 6em;">&lt;h1 class=&quot;intro&quot;&gt;This is a heading&lt;/h1&gt;</p>
+		<p style="text-indent: 4em;"><b>ดังนั้น</b>พื้นหลังของ Header ขั้นที่ 1 จะมีสีเหลือง</p>
+
+		<h3 style="text-indent: 1em;"><i class="far fa-clock"></i>Universal Selector (ได้แก่ *) จะมีค่า Specificity เป็น 0</h3>
+
+		<p style="text-align: center;">----</p>
+	</div>
+
+	<section class="calculate">
+		<div class="how-to">
+			<h2>CSS Specificity: Calculate</h2>
+
+			<h3 style="text-indent: 1em;">จะคำนวณ Specificity ได้อย่างไร?</h3>
+
+			<p style="text-indent: 2em;">Selector แต่ละตัวจะมีค่า Specific อยู่ค่าหนึ่ง Selector ที่อยู่ลำดับชั้นเดียวกันจะมีค่า Specific เท่ากัน โดยวิธีการคำนวณจะใช้กฎ ดังนี้</p>
+			<p style="text-indent: 2em;"><i class="far fa-clock"></i>Inline Style จะมีค่า Specific อยู่ที่<b>1-0-0-0</b>หรือจะใช้จำนวน<b>1000</b>เพื่อให้ง่ายต่อการคำนวณ</p>
+			<p style="text-indent: 2em;"><i class="far fa-clock"></i>ID Selector จะมีค่า Specific อยู่ที่<b>0-1-0-0</b>หรือจะใช้จำนวน<b>100</b>เพื่อให้ง่ายต่อการคำนวณ</p>
+			<p style="text-indent: 2em;"><i class="far fa-clock"></i>Class Selector จะมีค่า Specific อยู่ที่<b>0-0-1-0</b>หรือจะใช้จำนวน<b>10</b>เพื่อให้ง่ายต่อการคำนวณ</p>
+			<p style="text-indent: 2em;"><i class="far fa-clock"></i>Element Selector จะมีค่า Specific อยู่ที่<b>0-0-0-1</b>หรือจะใช้จำนวน<b>1</b>เพื่อให้ง่ายต่อการคำนวณ</p>
+		</div>
+
+		<div class="cal-example">
+			<h3 style="text-indent: 1em;">ตัวอย่างการคำนวณ Specificity</h3>
+
+			<p style="text-indent: 2em;"><i class="far fa-clock"></i>"ul li.active a" -> มีค่า Specific อยู่ที่ 13 (ul = 1, li = 1, .active = 10 และ a = 1)</p>
+			<p style="text-indent: 2em;"><i class="far fa-clock"></i>"ul li a" ---------> มีค่า Specific อยู่ที่ 3 (ul = 1, li = 1 และ a = 1)</p>
+			<p style="text-indent: 2em;"><b>ดังนั้น</b> Browser จะเลือก "ul li.active a" มา Apply เพราะ มีค่า Specific มากกว่า "ul li a"</p>
+
+			<p style="text-align: center;">----</p>
+		</div>
+	</section>
+
+	<section class="credit">
+		<h3 style="text-indent: 1em;">เอกสารอ้างอิง</h3>
+
+		<p style="text-indent: 2em;"><i class="far fa-clock"></i><a href="https://www.designil.com/css-specificity-and-hack.html">https://www.designil.com/css-specificity-and-hack.html</a></p>
+
+		<p style="text-indent: 2em;"><i class="far fa-clock"></i><a href="https://www.w3schools.com/css/css_specificity.asp">https://www.w3schools.com/css/css_specificity.asp</a></p>
+
+		<p style="text-indent: 2em;"><i class="far fa-clock"></i><a href="https://css-tricks.com/specifics-on-css-specificity/">https://css-tricks.com/specifics-on-css-specificity/</a></p>
+
+		<h3 style="text-indent: 1em;">View CSS</h3>
+
+		<p style="text-indent: 2em;"><i class="far fa-clock"></i>
+			<a href="style.css" title="View the source CSS file of the currently-viewed design.">View This Design&#8217;s <abbr title="Cascading Style Sheets">CSS</abbr></a>
+		</p>
+
+		<p style="text-align: center;">----</p>
+	</section>
+</body>
+</html>
