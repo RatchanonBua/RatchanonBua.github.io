@@ -6,8 +6,8 @@
 
 @keyframes bg-rainbow {
 	0% {background-position: 0% 82%}
-    50% {background-position: 100% 19%}
-    100% {background-position: 0% 82%}
+    	50% {background-position: 100% 19%}
+    	100% {background-position: 0% 82%}
 }
 
 @keyframes slidetop {
@@ -21,7 +21,7 @@
 	}
 	100% { box-shadow:1px -1px #3e3e3e,2px -2px #3e3e3e,3px -3px #3e3e3e,4px -4px #3e3e3e,5px -5px #3e3e3e,6px -6px #3e3e3e,7px -7px #3e3e3e,8px -8px #3e3e3e;
 		transform:translateX(-8px) translateY(8px)
-		}
+	}
 }
 
 #zen-intro {
@@ -52,9 +52,9 @@
 
 	background-color: #03A9F5;
 
-    border-style: solid;
-    border-color: lightgray;
-    border-radius: 25px;
+    	border-style: solid;
+    	border-color: lightgray;
+    	border-radius: 25px;
 }
 
 #zen-explanation {
