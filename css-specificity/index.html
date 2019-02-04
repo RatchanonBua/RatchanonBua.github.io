@@ -13,65 +13,67 @@
 		<h1>CSS Specificity</h1>
 	</header>
 
-	<section class="intro">
-		<h2>&nbsp;&nbsp;&nbsp;&nbsp;CSS Specificity คืออะไร?</h2>
+	<div class="main">
+		<section class="intro">
+			<h2>&nbsp;&nbsp;&nbsp;&nbsp;CSS Specificity คืออะไร?</h2>
 
-		<div class="meaning">
-			<p>&nbsp;<i class="far fa-clock"></i> กฎในการเลือก Selector ที่ซึ่งจัดลำดับความสำคัญของ Selector&nbsp;&nbsp;</p>
-			<p>&nbsp;<i class="far fa-clock"></i> การกำหนด Selector แต่ละประเภท ให้มี Priority ที่แตกต่างกันออกไป&nbsp;&nbsp;</p>
-			<p>&nbsp;<i class="far fa-clock"></i> Selector ที่มีความสำคัญมาก จะถูกเลือกมา Apply กับ Element ก่อน&nbsp;&nbsp;</p>
-		</div>
+			<div class="meaning">
+				<p>&nbsp;<i class="far fa-clock"></i> กฎในการเลือก Selector ที่ซึ่งจัดลำดับความสำคัญของ Selector&nbsp;&nbsp;</p>
+				<p>&nbsp;<i class="far fa-clock"></i> การกำหนด Selector แต่ละประเภท ให้มี Priority ที่แตกต่างกันออกไป&nbsp;&nbsp;</p>
+				<p>&nbsp;<i class="far fa-clock"></i> Selector ที่มีความสำคัญมาก จะถูกเลือกมา Apply กับ Element ก่อน&nbsp;&nbsp;</p>
+			</div>
 
-		<div class="extension">
-			<p>&nbsp;<i class="far fa-clock"></i> CSS Specificity จะจัด Priority ของ CSS Selector เพื่อการเรียกใช้งาน&nbsp;&nbsp;</p>
-			<p>&nbsp;<i class="far fa-clock"></i> CSS Specificity ยังรวมการจัด Priority ของวิธีการ Insert <abbr title="Cascading Style Sheets">CSS</abbr> อีกด้วย&nbsp;&nbsp;</p>
-		</div>
+			<div class="extension">
+				<p>&nbsp;<i class="far fa-clock"></i> CSS Specificity จะจัด Priority ของ CSS Selector เพื่อการเรียกใช้งาน&nbsp;&nbsp;</p>
+				<p>&nbsp;<i class="far fa-clock"></i> CSS Specificity ยังรวมการจัด Priority ของวิธีการ Insert <abbr title="Cascading Style Sheets">CSS</abbr> อีกด้วย&nbsp;&nbsp;</p>
+			</div>
 
-		<p style="text-align: center;">----</p>
-
-		<div class="priority">
-			<h3>&nbsp;ลำดับความสำคัญของ Selector</h3>
-			<h4 style="text-indent: 1em;">เรียงจากมากที่สุดไปยังน้อยที่สุด ตามลำดับ</h4>
-
-			<p style="text-indent: 1.5em;">+ Inline Style</p>
-			<p style="text-indent: 1.5em;">+ Internal Style Sheet</p>
-			<p style="text-indent: 2em;">- ID Selector</p>
-			<p style="text-indent: 2em;">- Class Selector</p>
-			<p style="text-indent: 2em;">- Element Selector</p>
-			<p style="text-indent: 1.5em;">+ External Style Sheet</p>
-			<p style="text-indent: 2em;">- ID Selector</p>
-			<p style="text-indent: 2em;">- Class Selector</p>
-			<p style="text-indent: 2em;">- Element Selector</p>
-		</div>
-
-		<p style="text-align: center;">----</p>
-	</section>
-
-	<section class="type">
-		<div class="css-selectors-type">
-			<h3>&nbsp;&nbsp;ประเภทของ CSS Selector</h3>
-
-			<p>&nbsp;1. Element Selector (<b>element-name</b>)</p>
-			<p style="text-indent: 2em;">การเลือก Apply CSS เข้าไปที่ Element โดยตรง</p>
-			<p>&nbsp;2. Class Selector (<b>.class-name</b>)</p>
-			<p style="text-indent: 2em;">การเลือก Apply CSS เข้าไปที่ Element โดยการเลือก Class ของ Element และทำการ Apply Element ทั้งหมดใน Class</p>
-			<p>&nbsp;3. ID Selector (<b>#id-name</b>)</p>
-			<p style="text-indent: 2em;">การเลือก Apply CSS เข้าไปที่ Element โดยการเลือก ID ของ Element และทำการ Apply Element ทั้งหมดที่อยู่ใน ID</p>
 			<p style="text-align: center;">----</p>
-		</div>
 
-		<div class="insert-type">
-			<h3>&nbsp;&nbsp;วิธีการ Insert CSS ลงใน Element</h3>
+			<div class="priority">
+				<h3>&nbsp;ลำดับความสำคัญของ Selector</h3>
+				<h4 style="text-indent: 1em;">เรียงจากมากที่สุดไปยังน้อยที่สุด ตามลำดับ</h4>
 
-			<p>&nbsp;1. External Style Sheet</p>
-			<p style="text-indent: 2em;">การ Import ไฟล์ Stylesheet นำมาใช้ Apply Element ของ HTML</p>
-			<p>&nbsp;2. Internal Style Sheet</p>
-			<p style="text-indent: 2em;">การเขียน Stylesheet ที่ไว้ใช้ Apply Element ใน Tag Head ของ HTML</abbr></p>
-			<p>&nbsp;3. Inline Styles</p>
-			<p style="text-indent: 2em;">การเขียน Style กำหนดรูปแบบใน Tag ของ HTML เลย</p>
+				<p style="text-indent: 1.5em;">+ Inline Style</p>
+				<p style="text-indent: 1.5em;">+ Internal Style Sheet</p>
+				<p style="text-indent: 2em;">- ID Selector</p>
+				<p style="text-indent: 2em;">- Class Selector</p>
+				<p style="text-indent: 2em;">- Element Selector</p>
+				<p style="text-indent: 1.5em;">+ External Style Sheet</p>
+				<p style="text-indent: 2em;">- ID Selector</p>
+				<p style="text-indent: 2em;">- Class Selector</p>
+				<p style="text-indent: 2em;">- Element Selector</p>
+			</div>
+
 			<p style="text-align: center;">----</p>
-		</div>
-	</section>
+		</section>
+
+		<section class="type">
+			<div class="css-selectors-type">
+				<h3>&nbsp;&nbsp;ประเภทของ CSS Selector</h3>
+
+				<p>&nbsp;1. Element Selector (<b>element-name</b>)</p>
+				<p style="text-indent: 2em;">การเลือก Apply CSS เข้าไปที่ Element โดยตรง</p>
+				<p>&nbsp;2. Class Selector (<b>.class-name</b>)</p>
+				<p style="text-indent: 2em;">การเลือก Apply CSS เข้าไปที่ Element โดยการเลือก Class ของ Element และทำการ Apply Element ทั้งหมดใน Class</p>
+				<p>&nbsp;3. ID Selector (<b>#id-name</b>)</p>
+				<p style="text-indent: 2em;">การเลือก Apply CSS เข้าไปที่ Element โดยการเลือก ID ของ Element และทำการ Apply Element ทั้งหมดที่อยู่ใน ID</p>
+				<p style="text-align: center;">----</p>
+			</div>
+
+			<div class="insert-type">
+				<h3>&nbsp;&nbsp;วิธีการ Insert CSS ลงใน Element</h3>
+
+				<p>&nbsp;1. External Style Sheet</p>
+				<p style="text-indent: 2em;">การ Import ไฟล์ Stylesheet นำมาใช้ Apply Element ของ HTML</p>
+				<p>&nbsp;2. Internal Style Sheet</p>
+				<p style="text-indent: 2em;">การเขียน Stylesheet ที่ไว้ใช้ Apply Element ใน Tag Head ของ HTML</abbr></p>
+				<p>&nbsp;3. Inline Styles</p>
+				<p style="text-indent: 2em;">การเขียน Style กำหนดรูปแบบใน Tag ของ HTML เลย</p>
+				<p style="text-align: center;">----</p>
+			</div>
+		</section>
+	</div>
 
 	<div class="rules" id="rules">
 		<h2>CSS Specificity: Rules</h2>
