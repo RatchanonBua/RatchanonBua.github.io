@@ -16,7 +16,7 @@
 }
 
 .topic {
-	min-width: 1024px;
+	min-width: 1000px;
 
 	text-align: center;
 
@@ -34,6 +34,8 @@ body {
 
 	background-size: cover;
 	background-color: lightgray;
+
+	display: inline-block;
 }
 
 .intro h2, .type h2, .intro h3, .type h3, h4 {
@@ -46,12 +48,19 @@ h2 {
 	background-color: pink;
 }
 
-.intro {
-	background-color: lightblue;
+.main {
+	display: inline-flex;
 
+	border-style: solid;
+	border-color: lightgray;
+
+	background-color: lightblue;
+	background-size: cover;
+}
+
+.intro {
 	background-image: url('images/air-2716_1280.jpg');
 	/* Image Credit to https://pixabay.com/en/air-atmosphere-blue-clear-climate-2716/ */
-	background-size: cover;
 }
 
 .intro p, .type p {
@@ -59,27 +68,15 @@ h2 {
 }
 
 .type {
-	background-color: lightblue;
-
 	background-image: url('images/sunset-100367_1280.jpg');
 	/* Image Credit to https://pixabay.com/en/sunset-birds-flying-sky-colorful-100367/ */
-	background-size: cover;
-}
-
-.intro, .type {
-	display: table-cell;
-
-	border-style: solid;
-	border-color: lightgray;
-
-	min-width: 512px;
 }
 
 .calculate, .rules, .credit {
+	min-width: 1000px;
+
 	border-style: solid;
 	border-color: lightgray;
-
-	min-width: 1024px;
 }
 
 .calculate {
