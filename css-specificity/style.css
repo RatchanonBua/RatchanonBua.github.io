@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Sarabun');
 
 @font-face {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Sarabun', serif;
 }
 
 @keyframes bg-rainbow {
@@ -10,154 +10,100 @@
 	100% {background-position: 0% 82%}
 }
 
-@keyframes slidetop {
-	0% { transform: translateY(250px) }
-	100% { transform: translateY(0) }
+* {
+	border-radius: 15px;
+	margin: 5px 5px 5px 5px;
 }
 
-@keyframes shadow-pop-tr {
-	0% { box-shadow:0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e;
-		transform:translateX(0) translateY(0)
-	}
-	100% { box-shadow:1px -1px #3e3e3e,2px -2px #3e3e3e,3px -3px #3e3e3e,4px -4px #3e3e3e,5px -5px #3e3e3e,6px -6px #3e3e3e,7px -7px #3e3e3e,8px -8px #3e3e3e;
-		transform:translateX(-8px) translateY(8px)
-	}
-}
+.topic {
+	min-width: 1000px;
 
-#zen-intro {
-	min-width: 1024px;
-
-	border-style: solid;
-	border-color: lightgray;
-	margin: 0px 0px 5px 0px;
-
-	background-image: url('images/swan-293157_1280.jpg');
-	/* Image Credit to https://pixabay.com/en/swan-bird-nature-water-bird-293157/ */
-	background-size: cover;
-
-	background-color: lightblue;
-}
-
-#zen-supporting, .sidebar {
-	display: table-cell;
-	animation: slidetop 2s cubic-bezier(.25,.46,.45,.94) both;
-}
-
-#zen-supporting {
-	min-width: 640px;
-}
-
-.sidebar {
-	min-width: 384px;
-
-	background-color: #03A9F5;
-
-    border-style: solid;
-    border-color: lightgray;
-    border-radius: 25px;
-}
-
-#zen-explanation {
-	border-style: solid;
-	border-color: lightgray;
+	text-align: center;
 
 	background-image: url('images/abstract-2384_1280.jpg');
 	/* Image Credit to https://pixabay.com/en/abstract-aqua-background-blue-2384/ */
 	background-size: cover;
 
-	background-color: lightgreen;
-
-	margin: 0px 0px 5px 0px;
-}
-
-#zen-participation, #zen-benefits {
-	display: table-cell;
 	border-style: solid;
 	border-color: lightgray;
-	margin: 5px 5px 5px 5px;
-}
-
-#zen-participation {
-	background-image: url('images/air-2716_1280.jpg');
-	/* Image Credit to https://pixabay.com/en/air-atmosphere-blue-clear-climate-2716/ */
-	background-size: cover;
-	background-color: pink;
-}
-
-#zen-benefits {
-	min-width: 320px;
-	background-image: url('images/sunset-100367_1280.jpg');
-	/* Image Credit to https://pixabay.com/en/sunset-birds-flying-sky-colorful-100367/ */
-	background-size: cover;
-	background-color: gray;
-}
-
-#zen-requirements {
-	border-style: solid;
-	border-color: lightgray;
-
-	background-image: url('images/color-2174045_1280.png');
-	/* Image Credit to https://pixabay.com/en/color-triangle-geometric-textured-2174045/ */
-	background-size: cover;
-	background-color: white;
-
-	margin: 0px 0px 5px 0px;
-}
-
-#zen-summary p {
-	text-align: center;
-}
-
-#zen-explanation p, #zen-explanation h3, #zen-participation p, #zen-participation h3, #zen-benefits p, #zen-benefits h3 {
-	color: white;
-}
-
-p {
-	text-align: justify;
-	margin: 15px 20px 15px 20px;
 }
 
 body {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Sarabun', serif;
+	text-align: justify;
+
+	background-size: cover;
 	background-color: lightgray;
+
+	display: inline-block;
 }
 
-h1 {
-	color: #0000ff;
-	font-size: 3em;
-	text-align: center;
-	text-shadow: 2px 2px #ffffaa;
-	margin: 10px 10px 10px 10px;
-	border-style: solid;
-	border-color: #3e3e3e;
-
-
-	animation:shadow-pop-tr 2s cubic-bezier(.47,0.000,.745,.715) both
+.intro h2, .type h2, .intro h3, .type h3, h4 {
+	color: white;
+	background-color: transparent;
 }
 
 h2 {
-	color: black;
-	font-size: 1.75em;
-	text-align: center;
-	text-shadow: 2px 2px #bfbfbf;
-	margin: 20px 20px 20px 20px;
+	color: blue;
+	background-color: pink;
+}
+
+.main {
+	display: inline-flex;
+
 	border-style: solid;
-	border-color: #3e3e3e;
+	border-color: lightgray;
 
-	animation:shadow-pop-tr 2s cubic-bezier(.47,0.000,.745,.715) both
+	background-color: lightblue;
 }
 
-h3 {
-	color: black;
-	text-align: center;
-	margin: 15px 0px 15px 0px;
+.intro {
+	background-color: #03A9F5;
 }
 
-footer {
-	display: none;
+.topic h1 {
+	color: white;
+}
+
+.type {
+	background-image: url('images/color-2174045_1280.png');
+	/* Image Credit to https://pixabay.com/en/color-triangle-geometric-textured-2174045/ */
+	background-size: cover;
+}
+
+.calculate, .rules, .credit {
+	min-width: 1000px;
+
+	border-style: solid;
+	border-color: lightgray;
+}
+
+.calculate {
+	background-image: url('images/swan-293157_1280.jpg');
+	/* Image Credit to https://pixabay.com/en/swan-bird-nature-water-bird-293157/ */
+	background-size: cover;
+}
+
+#rules {
+	background-color: lightgreen;
+}
+
+.rules {
+	background-color: yellow;
+}
+
+.credit {
+	background-image: url('images/abstract-2384_1280.jpg');
+	/* Image Credit to https://pixabay.com/en/abstract-aqua-background-blue-2384/ */
+	background-size: cover;
+}
+
+.credit h3, .credit p {
+	color: white;
 }
 
 a {
+	text-decoration: none;
 	text-indent: 30%;
 	text-align: center;
 	cursor: pointer;
