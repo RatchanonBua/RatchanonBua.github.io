@@ -18,14 +18,14 @@
 			<h2>&nbsp;&nbsp;&nbsp;&nbsp;CSS Specificity คืออะไร?</h2>
 
 			<div class="meaning">
-				<p>&nbsp;<i class="far fa-clock"></i> กฎในการเลือก Selector ที่ซึ่งจัดลำดับความสำคัญของ Selector&nbsp;&nbsp;</p>
-				<p>&nbsp;<i class="far fa-clock"></i> การกำหนด Selector แต่ละประเภท ให้มี Priority ที่แตกต่างกันออกไป&nbsp;&nbsp;</p>
-				<p>&nbsp;<i class="far fa-clock"></i> Selector ที่มีความสำคัญมาก จะถูกเลือกมา Apply กับ Element ก่อน&nbsp;&nbsp;</p>
+				<p>&nbsp;<i class="far fa-clock"></i> กฎในการเลือก Selector ที่ซึ่งจัดลำดับความสำคัญของ Selector</p>
+				<p>&nbsp;<i class="far fa-clock"></i> การกำหนด Selector แต่ละประเภท ให้มี Priority ที่แตกต่างกันไป</p>
+				<p>&nbsp;<i class="far fa-clock"></i> Selector ที่มีความสำคัญมาก จะถูกเลือกมา Apply กับ Element ก่อน</p>
 			</div>
 
 			<div class="extension">
-				<p>&nbsp;<i class="far fa-clock"></i> CSS Specificity จะจัด Priority ของ CSS Selector เพื่อการเรียกใช้งาน&nbsp;&nbsp;</p>
-				<p>&nbsp;<i class="far fa-clock"></i> CSS Specificity ยังรวมการจัด Priority ของวิธีการ Insert <abbr title="Cascading Style Sheets">CSS</abbr> อีกด้วย&nbsp;&nbsp;</p>
+				<p>&nbsp;<i class="far fa-clock"></i> CSS Specificity จะจัด Priority ของ CSS Selector เพื่อการเรียกใช้</p>
+				<p>&nbsp;<i class="far fa-clock"></i> CSS Specificity ยังรวมการจัด Priority ของวิธีการ Insert <abbr title="Cascading Style Sheets">CSS</abbr> ด้วย</p>
 			</div>
 
 			<p style="text-align: center;">----</p>
@@ -76,7 +76,7 @@
 	</div>
 
 	<div class="rules" id="rules">
-		<h2>CSS Specificity: Rules</h2>
+		<h2>CSS Specificity: Rules <a style="font-size: 0.8em" href="https://www.w3schools.com/css/css_specificity.asp">(อ้างอิง)</a></h2>
 
 		<h3 style="text-indent: 1em;"><i class="far fa-clock"></i>Specificity เท่ากัน (ลำดับชั้นของ Selector เท่ากัน): ถือเอา Style ล่าสุด</h3>
 		<p style="text-indent: 4em;">ถ้าหากมี Specific เท่ากัน Browser จะนับเอา Style ล่าสุดมา Apply ลงใน HTML</p>
@@ -118,7 +118,7 @@
 		<div class="how-to">
 			<h2>CSS Specificity: Calculate</h2>
 
-			<h3 style="text-indent: 1em;">จะคำนวณ Specificity ได้อย่างไร?</h3>
+			<h3 style="text-indent: 1em;">จะคำนวณ Specificity ได้อย่างไร? <a style="font-size: 0.8em" href="https://css-tricks.com/specifics-on-css-specificity/">(อ้างอิง)</a></h3>
 
 			<p style="text-indent: 2em;">Selector แต่ละตัวจะมี Specific อยู่ค่าหนึ่ง Selector ที่อยู่ลำดับชั้นเดียวกันจะมี Specific เท่ากัน โดยวิธีการคำนวณจะใช้กฎ ดังนี้</p>
 			<p style="text-indent: 2em;"><i class="far fa-clock"></i>Inline Style จะมี Specific อยู่ที่<b>1-0-0-0</b>หรือจะใช้จำนวน<b>1000</b>เพื่อให้ง่ายต่อการคำนวณ</p>
@@ -128,7 +128,7 @@
 		</div>
 
 		<div class="cal-example">
-			<h3 style="text-indent: 1em;">ตัวอย่างการคำนวณ Specificity</h3>
+			<h3 style="text-indent: 1em;">ตัวอย่างการคำนวณ Specificity <a style="font-size: 0.8em" href="https://www.designil.com/css-specificity-and-hack.html">(อ้างอิง)</a></p></h3>
 
 			<p style="text-indent: 2em;"><i class="far fa-clock"></i>"ul li.active a" -> มีค่า Specific อยู่ที่ 13 (ul = 1, li = 1, .active = 10 และ a = 1)</p>
 			<p style="text-indent: 2em;"><i class="far fa-clock"></i>"ul li a" ---------> มีค่า Specific อยู่ที่ 3 (ul = 1, li = 1 และ a = 1)</p>

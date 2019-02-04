@@ -104,6 +104,7 @@ h2 {
 }
 
 a {
+	text-decoration: none;
 	text-indent: 30%;
 	text-align: center;
 	cursor: pointer;
