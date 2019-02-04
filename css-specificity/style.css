@@ -55,12 +55,12 @@ h2 {
 	border-color: lightgray;
 
 	background-color: lightblue;
-	background-size: cover;
 }
 
 .intro {
 	background-image: url('images/air-2716_1280.jpg');
 	/* Image Credit to https://pixabay.com/en/air-atmosphere-blue-clear-climate-2716/ */
+	background-size: cover;
 }
 
 .intro p, .type p {
@@ -70,6 +70,7 @@ h2 {
 .type {
 	background-image: url('images/sunset-100367_1280.jpg');
 	/* Image Credit to https://pixabay.com/en/sunset-birds-flying-sky-colorful-100367/ */
+	background-size: cover;
 }
 
 .calculate, .rules, .credit {
