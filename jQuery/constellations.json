@@ -1,0 +1,705 @@
+[
+	{
+		"number" : "001",
+		"latin_name" : "Andromeda.",
+		"english_name" : "Andromeda",
+		"thai_name" : "แอนโดรเมดา",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "002",
+		"latin_name" : "Antlia.",
+		"english_name" : "Air Pump",
+		"thai_name" : "เครื่องสูบลม",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "003",
+		"latin_name" : "Apus.",
+		"english_name" : "Bird of Paradise",
+		"thai_name" : "นกการเวก",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "004",
+		"latin_name" : "Aquarius.",
+		"english_name" : "Water Carrier",
+		"thai_name" : "คนแบกหม้อน้ำ",
+		"zodiac" : "กุมภ์"
+	} ,
+
+	{
+		"number" : "005",
+		"latin_name" : "Aquila.",
+		"english_name" : "Eagle",
+		"thai_name" : "นกอินทรี",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "006",
+		"latin_name" : "Ara.",
+		"english_name" : "Altar",
+		"thai_name" : "แท่นบูชา",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "007",
+		"latin_name" : "Aries.",
+		"english_name" : "Ram",
+		"thai_name" : "แกะ",
+		"zodiac" : "เมษ"
+	} ,
+
+	{
+		"number" : "008",
+		"latin_name" : "Auriga.",
+		"english_name" : "Charioteer",
+		"thai_name" : "สารถี",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "009",
+		"latin_name" : "Boötes.",
+		"english_name" : "Bean Driver",
+		"thai_name" : "คนเลี้ยงสัตว์",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "010",
+		"latin_name" : "Caelum.",
+		"english_name" : "Chisel",
+		"thai_name" : "สิ่ว",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "011",
+		"latin_name" : "Camelopardalis.",
+		"english_name" : "Giraffe",
+		"thai_name" : "ยีราฟ",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "012",
+		"latin_name" : "Cancer.",
+		"english_name" : "Crab",
+		"thai_name" : "ปู",
+		"zodiac" : "กรกฎ"
+	} ,
+
+	{
+		"number" : "013",
+		"latin_name" : "Canes Venatici.",
+		"english_name" : "Hunting Dogs",
+		"thai_name" : "หมาล่าเนื้อ",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "014",
+		"latin_name" : "Canis Major.",
+		"english_name" : "Great Dog",
+		"thai_name" : "หมาใหญ่",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "015",
+		"latin_name" : "Canis Minor.",
+		"english_name" : "Little Dog",
+		"thai_name" : "หมาเล็ก",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "016",
+		"latin_name" : "Capricornus.",
+		"english_name" : "Sea Goat",
+		"thai_name" : "แพะทะเล",
+		"zodiac" : "มังกร"
+	} ,
+
+	{
+		"number" : "017",
+		"latin_name" : "Carina.",
+		"english_name" : "Keel",
+		"thai_name" : "กระดูกงูเรือ",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "018",
+		"latin_name" : "Cassiopeia.",
+		"english_name" : "Cassiopeia",
+		"thai_name" : "แคสซิโอเปีย",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "019",
+		"latin_name" : "Centaurus.",
+		"english_name" : "Centaur",
+		"thai_name" : "คนครึ่งม้า",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "020",
+		"latin_name" : "Cepheus.",
+		"english_name" : "Cepheus",
+		"thai_name" : "ซีฟิอัส",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "021",
+		"latin_name" : "Cetus.",
+		"english_name" : "Sea Monster",
+		"thai_name" : "ซีตัส",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "022",
+		"latin_name" : "Chameleon.",
+		"english_name" : "Chameleon",
+		"thai_name" : "กิ้งก่าคะมีเลียน",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "023",
+		"latin_name" : "Circinus.",
+		"english_name" : "Compasses",
+		"thai_name" : "วงเวียน",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "024",
+		"latin_name" : "Columba.",
+		"english_name" : "Dove",
+		"thai_name" : "นกเขา",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "025",
+		"latin_name" : "Coma Berenices.",
+		"english_name" : "Berenice's Hair",
+		"thai_name" : "ผมเบเรนิซ",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "026",
+		"latin_name" : "Corona Australis.",
+		"english_name" : "Southern Crown",
+		"thai_name" : "มงกุฎใต้",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "027",
+		"latin_name" : "Corona Borealis.",
+		"english_name" : "Northern Crown",
+		"thai_name" : "มงกุฎเหนือ",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "028",
+		"latin_name" : "Corvus.",
+		"english_name" : "Crow",
+		"thai_name" : "นกกา",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "029",
+		"latin_name" : "Crater.",
+		"english_name" : "Cup",
+		"thai_name" : "ถ้วย",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "030",
+		"latin_name" : "Crux.",
+		"english_name" : "Southern Cross",
+		"thai_name" : "กางเขนใต้",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "031",
+		"latin_name" : "Cygnus.",
+		"english_name" : "Swan",
+		"thai_name" : "หงส์",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "032",
+		"latin_name" : "Delphinus.",
+		"english_name" : "Dolphin",
+		"thai_name" : "โลมา",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "033",
+		"latin_name" : "Dorado.",
+		"english_name" : "Swordfish",
+		"thai_name" : "ปลากระโทงแทง",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "034",
+		"latin_name" : "Draco.",
+		"english_name" : "Dragon",
+		"thai_name" : "มังกร",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "035",
+		"latin_name" : "Equuleus.",
+		"english_name" : "Little Horse",
+		"thai_name" : "ม้าแกลบ",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "036",
+		"latin_name" : "Ernumberanus.",
+		"english_name" : "River",
+		"thai_name" : "แม่น้ำ",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "037",
+		"latin_name" : "Fornax.",
+		"english_name" : "Furnace",
+		"thai_name" : "เตาหลอม",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "038",
+		"latin_name" : "Gemini.",
+		"english_name" : "Twins",
+		"thai_name" : "คนคู่",
+		"zodiac" : "เมถุน"
+	} ,
+
+	{
+		"number" : "039",
+		"latin_name" : "Grus.",
+		"english_name" : "Crane",
+		"thai_name" : "นกกระเรียน",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "040",
+		"latin_name" : "Hercules.",
+		"english_name" : "Hercules",
+		"thai_name" : "เฮอร์คิวลีส",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "041",
+		"latin_name" : "Horologium.",
+		"english_name" : "Clock",
+		"thai_name" : "นาฬิกา",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "042",
+		"latin_name" : "Hydra.",
+		"english_name" : "Sea Serpent",
+		"thai_name" : "งูไฮดรา",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "043",
+		"latin_name" : "Hydrus.",
+		"english_name" : "Water Snake",
+		"thai_name" : "งูไฮดรัส",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "044",
+		"latin_name" : "Indus.",
+		"english_name" : "American Indian",
+		"thai_name" : "อินเดียนแดง",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "045",
+		"latin_name" : "Lacerta.",
+		"english_name" : "Lizard",
+		"thai_name" : "กิ้งก่า",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "046",
+		"latin_name" : "Leo.",
+		"english_name" : "Lion",
+		"thai_name" : "สิงโต",
+		"zodiac" : "สิงห์"
+	} ,
+
+	{
+		"number" : "047",
+		"latin_name" : "Leo Minor.",
+		"english_name" : "Lion Cub",
+		"thai_name" : "สิงโตเล็ก",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "048",
+		"latin_name" : "Lepus.",
+		"english_name" : "Hare",
+		"thai_name" : "กระต่ายป่า",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "049",
+		"latin_name" : "Libra.",
+		"english_name" : "Scales",
+		"thai_name" : "ตาชั่ง",
+		"zodiac" : "ตุลย์"
+	} ,
+
+	{
+		"number" : "050",
+		"latin_name" : "Lupus.",
+		"english_name" : "Wolf",
+		"thai_name" : "หมาป่า",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "051",
+		"latin_name" : "Lynx.",
+		"english_name" : "Lynx",
+		"thai_name" : "แมวป่า",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "052",
+		"latin_name" : "Lyra.",
+		"english_name" : "Lyre",
+		"thai_name" : "พิณ",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "053",
+		"latin_name" : "Mensa.",
+		"english_name" : "Table Mountain",
+		"thai_name" : "ภูเขา",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "054",
+		"latin_name" : "Microscopium.",
+		"english_name" : "Microscope",
+		"thai_name" : "กล้องจุลทรรศน์",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "055",
+		"latin_name" : "Monoceros.",
+		"english_name" : "Unicorn",
+		"thai_name" : "ยูนิคอร์น",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "056",
+		"latin_name" : "Musca.",
+		"english_name" : "Fly",
+		"thai_name" : "แมลงวัน",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "057",
+		"latin_name" : "Norma.",
+		"english_name" : "Rule",
+		"thai_name" : "ไม้ฉาก",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "058",
+		"latin_name" : "Octans.",
+		"english_name" : "Octant",
+		"thai_name" : "ออกแทนต์",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "059",
+		"latin_name" : "Ophiuchus.",
+		"english_name" : "Serpent Bearer",
+		"thai_name" : "คนแบกงู",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "060",
+		"latin_name" : "Orion.",
+		"english_name" : "Hunter",
+		"thai_name" : "นายพราน",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "061",
+		"latin_name" : "Pavo.",
+		"english_name" : "Peacock",
+		"thai_name" : "คนแบกงู",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "062",
+		"latin_name" : "Pegasus.",
+		"english_name" : "Winged Horse",
+		"thai_name" : "ม้าบิน",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "063",
+		"latin_name" : "Perseus.",
+		"english_name" : "Perseus",
+		"thai_name" : "เพอร์ซิอัส",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "064",
+		"latin_name" : "Phoenix.",
+		"english_name" : "Phoenix",
+		"thai_name" : "นกฟีนิกซ์",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "065",
+		"latin_name" : "Pictor.",
+		"english_name" : "Pictor",
+		"thai_name" : "ขาตั้งภาพ",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "066",
+		"latin_name" : "Pisces.",
+		"english_name" : "Fishes",
+		"thai_name" : "ปลา",
+		"zodiac" : "มีน"
+	} ,
+
+	{
+		"number" : "067",
+		"latin_name" : "Pisces Austrinus.",
+		"english_name" : "Southern Fish",
+		"thai_name" : "ปลาใต้",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "068",
+		"latin_name" : "Puppis.",
+		"english_name" : "Stern",
+		"thai_name" : "ท้ายเรือ",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "069",
+		"latin_name" : "Pyxis.",
+		"english_name" : "Compass",
+		"thai_name" : "เข็มทิศ",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "070",
+		"latin_name" : "Reticulum.",
+		"english_name" : "Net",
+		"thai_name" : "ตาข่าย",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "071",
+		"latin_name" : "Sagitta.",
+		"english_name" : "Arrow",
+		"thai_name" : "ลูกศร",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "072",
+		"latin_name" : "Sagittarius.",
+		"english_name" : "Archer",
+		"thai_name" : "คนยิงธนู",
+		"zodiac" : "ธนู"
+	} ,
+
+	{
+		"number" : "073",
+		"latin_name" : "Scorpius.",
+		"english_name" : "Scorpion",
+		"thai_name" : "แมงป่อง",
+		"zodiac" : "พิจิก"
+	} ,
+
+	{
+		"number" : "074",
+		"latin_name" : "Sculptor.",
+		"english_name" : "Sculptor",
+		"thai_name" : "ช่างแกะสลัก",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "075",
+		"latin_name" : "Scutum.",
+		"english_name" : "Shield",
+		"thai_name" : "โล่",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "076",
+		"latin_name" : "Serpens.",
+		"english_name" : "Serpent",
+		"thai_name" : "งู",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "077",
+		"latin_name" : "Sextans.",
+		"english_name" : "Sextant",
+		"thai_name" : "เซกซ์แทนต์",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "078",
+		"latin_name" : "Taurus.",
+		"english_name" : "Bull",
+		"thai_name" : "วัว",
+		"zodiac" : "พฤษภ"
+	} ,
+
+	{
+		"number" : "079",
+		"latin_name" : "Telescopium.",
+		"english_name" : "Telescope",
+		"thai_name" : "กล้องโทรทรรศน์",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "080",
+		"latin_name" : "Triangulum.",
+		"english_name" : "Triangle",
+		"thai_name" : "สามเหลี่ยม",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "081",
+		"latin_name" : "Triangulum Australe.",
+		"english_name" : "Southern Triangle",
+		"thai_name" : "สามเหลี่ยมใต้",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "082",
+		"latin_name" : "Tucana.",
+		"english_name" : "Toucan",
+		"thai_name" : "นกทูแคน",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "083",
+		"latin_name" : "Ursa Major.",
+		"english_name" : "Big Bear",
+		"thai_name" : "หมีใหญ่",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "084",
+		"latin_name" : "Ursa Minor.",
+		"english_name" : "Little Bear",
+		"thai_name" : "หมีเล็ก",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "085",
+		"latin_name" : "Vela.",
+		"english_name" : "Sail",
+		"thai_name" : "ใบเรือ",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "086",
+		"latin_name" : "Virgo.",
+		"english_name" : "Virgin",
+		"thai_name" : "หญิงสาว",
+		"zodiac" : "กันย์"
+	} ,
+
+	{
+		"number" : "087",
+		"latin_name" : "Volans.",
+		"english_name" : "Flying Fish",
+		"thai_name" : "ปลาบิน",
+		"zodiac" : ""
+	} ,
+
+	{
+		"number" : "088",
+		"latin_name" : "Vulpecula.",
+		"english_name" : "Fox",
+		"thai_name" : "หมาจิ้งจอก",
+		"zodiac" : ""
+	}
+]

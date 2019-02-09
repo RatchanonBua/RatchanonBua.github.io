@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>jQuery</title>
+
+    <link rel="stylesheet" href="bulma-0.7.2/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Sarabun" rel="stylesheet">
+
+    <style>
+        html {
+            min-width: 768px;
+        }
+
+        body {
+            font-family: 'Sarabun';
+            background: url('images/color-2174045_1280.png') no-repeat center center fixed;
+            /* Credit to https://pixabay.com/en/color-triangle-geometric-textured-2174045/ */
+            background-size: cover;
+            min-height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+    <script type="text/javascript" src="jquery-3.3.1.min.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="myscript.js" charset="UTF-8"></script>
+
+    <div class="navbar is-primary" style="background-color: white;">
+        <div class="column is-8 is-offset-2 has-text-centered">
+            <h1 class="title big-title text-bold is-2" style="color: black;">
+                JQUERY 3
+            </h1>
+        </div>
+    </div>
+
+    <section class="section">
+        <div class="container has-text-centered">       
+            <h1 class="title" style="color: black; font-size: 5em;">Constellations</h1>
+            <span></span>
+            <h2 class="subtitle" style="color: black; font-weight: bold; font-size: 1.5em;">Reference : <a href="http://thaiastro.nectec.or.th/library/article/184/" style="color: white;">สมาคมดาราศาสตร์ไทย (The Thai Astronomical Society)</a></h2>
+            <div class="field has-addons has-addons-centered">
+                <p class="control is-dark">
+                    <input  class="input is-rounded" 
+                            type="text" id="input-text"
+                            placeholder="Enter Some Text">
+                </p>
+                        
+                <p class="control">
+                    <button class="button is-primary is-rounded" id="submit-btn">
+                        SEARCH
+                    </button>
+                </p>
+            </div>
+            <a id="advanced" style="color: black; font-weight: bold; cursor: pointer; font-size: 1.25em;">Advanced Search</a>
+            <div id="advanced-block" style="display: none;">
+                <section class="content is-centered" id="choice-box" style="color: black; font-weight: bold;">
+                    <br>
+                    <div>
+                        <p>Search Mode:
+                        &nbsp;&nbsp;<input type="checkbox" id="latin-check" checked="false"> Latin
+                        &nbsp;&nbsp;<input type="checkbox" id="english-check" checked="false"> English
+                        &nbsp;&nbsp;<input type="checkbox" id="thai-check" checked="false"> Thai
+                        </p>
+                    </div>
+
+                    <div>
+                        <p>Zodiac Search:
+                        &nbsp;&nbsp;<input type="checkbox" id="zodiac-check" checked="false"> Zodiac
+                        &nbsp;&nbsp;<input type="checkbox" id="nonzodiac-check" checked="false"> Non-Zodiac
+                        </p>
+                    </div>
+
+                    <div>
+                        <p>Catagory:
+                        &nbsp;&nbsp;<input type="checkbox" id="ag-check" checked="false"> A-G
+                        &nbsp;&nbsp;<input type="checkbox" id="hr-check" checked="false"> H-R
+                        &nbsp;&nbsp;<input type="checkbox" id="sz-check" checked="false"> S-Z
+                        </p>
+                    </div>
+                    <br>
+                </section>
+            </div>
+        </div>
+
+        <section class="section">
+            <div class="columns is-centered">
+                <div class="column is-narrow">
+                    <table class="table is-bordered" id="group-table">
+                        <thead>
+                            <tr>
+                                <th class="has-text-centered" width="175px"># Number</th>
+                                <th class="has-text-centered" width="175px">Latin</th>
+                                <th class="has-text-centered" width="175px">English</th>
+                                <th class="has-text-centered" width="175px">Thai</th>
+                                <th class="has-text-centered" width="175px">Zodiac</th>
+                            </tr>
+                        </thead>
+
+                        <tbody id="table-body">
+                                
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </section>
+</body>
+</html>
